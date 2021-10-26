@@ -1,0 +1,38 @@
+nav {
+  background: cadetblue;
+  border-bottom: 1px solid coral;
+}
+
+.header-containter {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.links ul li a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  padding: 10px;
+}
+
+.links ul li a:hover {
+  color: black;
+}
+a.cart::after {
+  content: attr(incart);
+  font-size: 10px;
+  background: red;
+  display: inline-block;
+  text-align: center;
+  width: 15px;
+  border-radius: 50%;
+  margin: 5px;
+  position: absolute;
+  top: 10px;
+}

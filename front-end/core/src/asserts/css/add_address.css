@@ -1,0 +1,26 @@
+input {
+  display: block;
+  padding: 5px;
+  margin: 10px;
+  width: 60%;
+  background-color: rgb(243, 243, 243);
+  border: none;
+  outline: none;
+}
+
+button {
+  display: block;
+}
+
+.check {
+  display: flex;
+  justify-content: start;
+}
+
+input#is_default,
+input#use_default {
+  display: inline;
+  padding: 0px !important;
+  margin: 6px;
+  width: auto;
+}

@@ -1,0 +1,35 @@
+.products-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0px;
+  display: flex;
+}
+
+.product {
+  margin-right: 10px;
+  max-width: 20%;
+  background-color: rgb(221, 219, 219);
+  border: 1px solid;
+}
+
+.title {
+  height: 100px;
+}
+
+.price {
+  padding: 0px 10px;
+}
+
+.img img {
+  max-width: 100%;
+}
+
+.info {
+  padding: 0 10px;
+}
+.img {
+  border-bottom: 1px solid;
+}
+h5 {
+  font-size: 16px;
+}

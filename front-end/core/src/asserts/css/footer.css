@@ -1,0 +1,27 @@
+footer {
+  background: #323232;
+  border-top: 1px solid cadetblue;
+  color: aliceblue;
+}
+.row {
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+.footer-links ul li {
+  margin-top: 10px;
+}
+.footer-links ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer-containter {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
